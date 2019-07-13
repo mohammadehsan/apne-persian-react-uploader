@@ -1,6 +1,6 @@
 {
-  "name": "apne-persian-react-uploader",
-  "version": "0.0.2",
+  "name": "persian-react-uploader",
+  "version": "0.0.1",
   "description": "A flexible React component for uploading files ",
   "main": "index.js",
   "jest": {
@@ -59,8 +59,7 @@
     "prop-types": "^15.7.2",
     "react-dropzone": "^10.1.5",
     "react-scripts": "3.0.1",
-    "tes-react": "^4.0.0",
-    "react-redux-multilingual": "^2.0.2"
+    "tes-react": "^4.0.0"
   },
   "peerDependencies": {
     "react": ">=16.8.0",
