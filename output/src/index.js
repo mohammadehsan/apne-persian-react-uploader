@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Uploader from '../../src';
+import Uploader from '../../src/index';
 
 
 const App = () => {

@@ -1,6 +1,6 @@
 {
   "name": "persian-react-uploader",
-  "version": "0.0.1",
+  "version": "0.0.9",
   "description": "A flexible React component for uploading files ",
   "main": "index.js",
   "jest": {
@@ -9,12 +9,13 @@
     ]
   },
   "files": [
-    "lib"
+    "index.js",
+    "lib/"
   ],
   "scripts": {
     "start": "webpack-dev-server --mode development",
     "test": "jest ./test",
-    "build": "yarn clean && cross-env NODE_ENV=production babel src -d lib --copy-files"
+    "build": "yarn autoclean && cross-env NODE_ENV=production babel src -d lib --copy-files"
   },
   "author": "ehsan shishehbor",
   "license": "MIT",
