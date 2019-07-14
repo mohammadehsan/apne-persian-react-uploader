@@ -23,6 +23,11 @@ first of all, you need to import this package into your component after that, ad
 
 ```bash
 import Uploader from 'persian-react-uploader/lib/index';
+.
+.
+.
+.
+.
 <Uploader uploadUrl="your_Custom_Upload_Url" autoUpload/>
 ```
 
